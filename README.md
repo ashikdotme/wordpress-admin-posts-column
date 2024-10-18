@@ -1,5 +1,5 @@
 # wordpress-admin-posts-column
-
+```
 
 // Add the thumbnail column
 add_filter('manage_gallery_posts_columns', 'add_gallery_thumbnail_column');
@@ -38,3 +38,6 @@ function display_testimonial_author_column($column, $post_id) {
         }
     }
 }
+
+
+```
